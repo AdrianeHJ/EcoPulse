@@ -1,9 +1,9 @@
 {
-    "titulo-cabecalho": "EcoPulse",
+    "tituloCabecalho": "EcoPulse",
     "slogan": "Reduza sua pegada de carbono sem mudar seu estilo de vida.",
-    "botao-cadastro": "Criar meu EcoScore",
+    "botaoCadastro": "Criar meu EcoScore",
 
-    "titulo-descricao": "Descrição do Nosso Serviço",
+    "tituloDescricao": "Descrição do Nosso Serviço",
     "subtitulo1": "O que é o EcoPulse?",
     "texto1": "EcoPulse é um serviço digital que conecta suas escolhas do dia a dia (como transporte, alimentação e consumo de energia) com ações ambientais reais.",
     "texto2": "Usando inteligência artificial e APIs integradas com apps que você já usa, como Google Maps, iFood, Uber e outros, o EcoPulse analisa suas rotinas e:",
@@ -15,32 +15,57 @@
     ],
     "subtitulo2": "Como funciona?",
     "topico1": "1. Conecte seus apps favoritos.",
-    "texto-topico1": "Em poucos cliques, você sincroniza seus apps com o EcoPulse.",
+    "textoTopico1": "Em poucos cliques, você sincroniza seus apps com o EcoPulse.",
     "topico2": "2. Receba seu EcoScore.",
-    "texto-topico2": "Um índice 100% personalizado que mostra o impacto ambiental das suas escolhas.",
+    "textoTopico2": "Um índice 100% personalizado que mostra o impacto ambiental das suas escolhas.",
     "topico3": "3. Transforme seu impacto em ação.",
-    "texto-topico3": "Compense suas emissões automaticamente ou manualmente, e receba recompensas por cada ação sustentável.",
+    "textoTopico3": "Compense suas emissões automaticamente ou manualmente, e receba recompensas por cada ação sustentável.",
     "topico4": "4. Compartilhe sua jornada.",
-    "texto-topico4": "Compartilhamento fácil para as redes sociais, com badges, metas e desafios entre amigos.",
+    "textoTopico4": "Compartilhamento fácil para as redes sociais, com badges, metas e desafios entre amigos.",
 
-    "titulo-avaliacao": "O que os usuários estão dizendo",
+    "tituloAvaliacao": "O que os usuários estão dizendo",
     "avaliacao1": "“Nunca imaginei que fosse tão fácil fazer diferença. Só conectei meus apps e pronto: já estou ajudando a reflorestar a Amazônia!”",
-    "estrelas-avaliacao1": "⭐⭐⭐⭐⭐",
-    "usuario-avaliacao1": "Camila F., SP",
+    "estrelasAvaliacao1": "⭐⭐⭐⭐⭐",
+    "usuarioAvaliacao1": "Camila F., SP",
     "avaliacao2": "“Transformei meu impacto em pontos, ganhei desconto no cinema e ainda ajudei uma ONG local. Isso sim é o futuro!”",
-    "estrelas-avaliacao2": "⭐⭐⭐⭐⭐",
-    "usuario-avaliacao2": "Rodrigo M., RE",
+    "estrelasAvaliacao2": "⭐⭐⭐⭐⭐",
+    "usuarioAvaliacao2": "Rodrigo M., RE",
     "avaliacao3": "“Adoro ver meu progresso semanal e competir com meus amigos. É tipo um jogo… só que salvando o planeta!”",
-    "estrelas-avaliacao3": "⭐⭐⭐⭐",
-    "usuario-avaliacao3": "Lívia T., BH",
+    "estrelasAvaliacao3": "⭐⭐⭐⭐",
+    "usuarioAvaliacao3": "Lívia T., BH",
 
-    "titulo-planos": "Planos para todos os perfis",
+    "tituloPlanos": "Planos para todos os perfis",
     "plano1": "Plano Raiz - Gratuito",
-    "itens-plano1": [
+    "itensPlano1": [
         "Acesso ao EcoScore básico",
         "Sugestões de melhorias sustentáveis",
         "Relatórios mensais de impacto",
         "Participação em desafios e ranking"
     ],
-    "texto-plano1": "Ideal para quem está começando e quer entender seu impacto"
+    "textoPlano1": "Ideal para quem está começando e quer entender seu impacto",
+    "botaoPlanos": "Começar",
+    "plano2": "Plano Folha R$ 19/mês",
+    "itensPlano2": [
+        "Tudo do plano Raiz",
+        "Compensação automática mensal de carbono",
+        "Plantio de 2 árvores/mês em seu nome",
+        "Acesso a cupons e parcerias sustentáveis"
+    ],
+    "textoPlano2": "Perfeito para quem quer praticidade e impacto real",
+    "plano3": "Plano Floresta R$ 49/mês",
+    "itensPlano3": [
+        "Tudo dos planos anteriores",
+        "Impacto triplo: compensação, educação e doação",
+        "Acompanhamento em tempo real de projetos apoiados",
+        "Badge exclusivo “Agente Verde Pro”",
+        "1 sessão de mentoria ambiental por mês"
+    ],
+
+    "tituloPerguntas": "Perguntas Frequentes (FAQ)",
+    "topicoPerguntas1": "Como o EcoPulse calcula meu impacto?",
+    "textoPergunta1": "Usamos dados dos apps conectados e modelos reconhecidos de cálculo de emissões para estimar sua pegada de carbono.",
+    "topicoPerguntas2": "Preciso pagar para usar?",
+    "textoPergunta2": "Não! Temos um plano gratuito com recursos essenciais. Planos pagos oferecem mais comodidades e impacto ampliado.",
+    "topicoPerguntas3": "Minhas ações realmente fazem a diferença?",
+    "textoPergunta3": "Sim! Todas as compensações e ações são auditadas e ligadas a projetos reais, com impacto rastreável e transparente."
 }

@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #000;
+    padding-bottom: 50px;
+    background-image: url(imagens/imagem-fundo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: degrade 2s forwards;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.inicio {
+    text-align: left;
+}
+
+#botaoCadastro {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: #a0da98;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: right;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#botaoCadastro:hover{
+    background-color: #fff;
+}
+
+.section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    border: 0px;
+}

@@ -4,18 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoPulse em JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logotipo-transparente.png">
 </head>
 <body>
-    <script src="script.js">
-        document.body.style.backgroundImage = "url('imagens/imagem-fundo.png')"
-        document.body.style.backgroundSize = "cover";
-        document.body.style.backgroundRepeat = "no-repeat";
-        document.body.style.backgroundPosition = "center";
+    <button id="botaoCarregar">Carregar dados</button>
+    <header class="header">
+        <div class="inicio">
+            <h1 id="tituloCabecalho"></h1>
+            <p id="slogan"></p>
+        </div>
+        <button id="botaoCadastro"></button>
+    </header>
 
-        const botao = document.createElement('button');
-        botao.textContent = "Carregar página";
-        botao.style.padding = '10px 20px';
-        document.body.appendChild(botao);
-    </script>
+    <section class="section">
+        <h1 id="tituloDescricao"></h1>   
+        <br><br>
+        <h3 id="subtitulo1"></h3><br>
+        <p id="texto1"></p><br>
+        <p id="texto2"></p><br>
+        <li id="lista"></li>
+        <br><br>
+        <h3 id="subtitulo2"></h3><br>
+        <ul>
+            <ol id="topico1"><b></b></ol>
+            <p id="textoTopico1"></p>
+            <ol id="topico2"><b></b></ol>
+            <p id="textoTopico2"></p>
+            <ol id="topico3"><b></b></ol>
+            <p id="textoTopico3"></p>
+            <ol id="topico4"><b></b></ol>
+            <p id="textoTopico4"></p>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
