@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+#botaoCarregar {
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: white;
+    margin: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: right;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -16,7 +28,7 @@ body {
     animation: degrade 2s forwards;
 }
 
-.header {
+body.ativarEstilos .header {
     text-align: center;
     padding: 40px 20px;
     border-bottom: 1px solid #ccc;
@@ -26,11 +38,11 @@ body {
     width: 100%;
 }
 
-.inicio {
+body.ativarEstilos .inicio {
     text-align: left;
 }
 
-#botaoCadastro {
+body.ativarEstilos #botaoCadastro{
     padding: 10px 20px;
     border: 2px solid #000;
     background: #a0da98;
@@ -41,13 +53,41 @@ body {
     transition: background-color 0.3s ease;
 }
 
-#botaoCadastro:hover{
+body.ativarEstilos #botaoCadastro:hover{
     background-color: #fff;
 }
 
-.section {
+body.ativarEstilos .section {
     padding: 40px 20px;
     border-bottom: 1px solid #ccc;
     text-align: center;
     border: 0px;
+}
+
+body.ativarEstilos .comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+body.ativarEstilos #estrelasAvaliacao1, #estrelasAvaliacao2, #estrelasAvaliacao3, 
+#usuarioAvaliacao1, #usuarioAvaliacao2, #usuarioAvaliacao3{
+    background: #ddd;
+    margin: 5px auto;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+
+body.ativarEstilos #avaliacao1, #avaliacao2, #avaliacao3 {
+    border: 1px solid #000;
+    padding: 20px;
+    width: 200px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
 }
