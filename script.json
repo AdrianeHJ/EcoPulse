@@ -37,29 +37,30 @@
     "tituloPlanos": "Planos para todos os perfis",
     "plano1": "Plano Raiz - Gratuito",
     "itensPlano1": [
-        "Acesso ao EcoScore básico",
-        "Sugestões de melhorias sustentáveis",
-        "Relatórios mensais de impacto",
-        "Participação em desafios e ranking"
+        "Acesso ao EcoScore básico;",
+        "Sugestões de melhorias sustentáveis;",
+        "Relatórios mensais de impacto;",
+        "Participação em desafios e ranking."
     ],
     "textoPlano1": "Ideal para quem está começando e quer entender seu impacto",
     "botaoPlanos": "Começar",
-    "plano2": "Plano Folha R$ 19/mês",
+    "plano2": "Plano Folha - R$ 19/mês",
     "itensPlano2": [
-        "Tudo do plano Raiz",
-        "Compensação automática mensal de carbono",
-        "Plantio de 2 árvores/mês em seu nome",
-        "Acesso a cupons e parcerias sustentáveis"
+        "Tudo do plano Raiz;",
+        "Compensação automática mensal de carbono;",
+        "Plantio de 2 árvores/mês em seu nome;",
+        "Acesso a cupons e parcerias sustentáveis."
     ],
     "textoPlano2": "Perfeito para quem quer praticidade e impacto real",
-    "plano3": "Plano Floresta R$ 49/mês",
+    "plano3": "Plano Floresta - R$ 49/mês",
     "itensPlano3": [
-        "Tudo dos planos anteriores",
-        "Impacto triplo: compensação, educação e doação",
-        "Acompanhamento em tempo real de projetos apoiados",
-        "Badge exclusivo “Agente Verde Pro”",
-        "1 sessão de mentoria ambiental por mês"
+        "Tudo dos planos anteriores;",
+        "Impacto triplo: compensação, educação e doação;",
+        "Acompanhamento em tempo real de projetos apoiados;",
+        "Badge exclusivo “Agente Verde Pro”;",
+        "1 sessão de mentoria ambiental por mês."
     ],
+    "textoPlano3": "Para quem quer liderar a mudança",
 
     "tituloPerguntas": "Perguntas Frequentes (FAQ)",
     "topicoPerguntas1": "Como o EcoPulse calcula meu impacto?",

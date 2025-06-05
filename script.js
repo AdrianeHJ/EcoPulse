@@ -17,12 +17,12 @@ function carregarJSON() {
         document.getElementById('subtitulo1').innerText = dados.subtitulo1;
         document.getElementById('texto1').innerText = dados.texto1;
         document.getElementById('texto2').innerText = dados.texto2;
-        const listaElement = document.getElementById('lista');
-        listaElement.innerHTML = ''; 
+        const listaDesc = document.getElementById('lista');
+        listaDesc.innerHTML = ''; 
         dados.lista.forEach(item => {
           const li = document.createElement('li');
           li.innerText = item;
-          listaElement.appendChild(li);
+          listaDesc.appendChild(li);
         });
         document.getElementById('subtitulo2').innerText = dados.subtitulo2;
         document.getElementById('topico1').innerText = dados.topico1;
@@ -44,6 +44,46 @@ function carregarJSON() {
         document.getElementById('avaliacao3').innerText = dados.avaliacao3;
         //document.getElementById('estrelasAvaliacao3').innerText = dados.estrelasAvaliacao3;
         //document.getElementById('usuarioAvaliacao3').innerText = dados.usuarioAvaliacao3;
+
+        document.getElementById('tituloPlanos').innerText = dados.tituloPlanos;
+        document.getElementById('plano1').innerText = dados.plano1;
+        const listaPlano1 = document.getElementById('itensPlano1');
+        listaPlano1.innerHTML = ''; 
+        dados.itensPlano1.forEach(item => {
+          const li = document.createElement('li');
+          li.innerText = item;
+          listaPlano1.appendChild(li);
+        });
+        document.getElementById('textoPlano1').innerText = dados.textoPlano1;
+        document.querySelectorAll('#botaoPlanos').forEach(botao => {
+          botao.innerText = dados.botaoPlanos;
+        });
+        document.getElementById('plano2').innerText = dados.plano2;
+        const listaPlano2 = document.getElementById('itensPlano2');
+        listaPlano2.innerHTML = ''; 
+        dados.itensPlano2.forEach(item => {
+          const li = document.createElement('li');
+          li.innerText = item;
+          listaPlano2.appendChild(li);
+        });
+        document.getElementById('textoPlano2').innerText = dados.textoPlano2;
+        document.getElementById('plano3').innerText = dados.plano3;
+        const listaPlano3 = document.getElementById('itensPlano3');
+        listaPlano3.innerHTML = ''; 
+        dados.itensPlano3.forEach(item => {
+          const li = document.createElement('li');
+          li.innerText = item;
+          listaPlano3.appendChild(li);
+        });
+        document.getElementById('textoPlano3').innerText = dados.textoPlano3;
+
+        document.getElementById('tituloPerguntas').innerText = dados.tituloPerguntas;
+        document.getElementById('topicoPerguntas1').innerText = dados.topicoPerguntas1;
+        document.getElementById('textoPergunta1').innerText = dados.textoPergunta1;
+        document.getElementById('topicoPerguntas2').innerText = dados.topicoPerguntas2;
+        document.getElementById('textoPergunta2').innerText = dados.textoPergunta2;
+        document.getElementById('topicoPerguntas3').innerText = dados.topicoPerguntas3;
+        document.getElementById('textoPergunta3').innerText = dados.textoPergunta3;
   
         document.getElementById('botaoCarregar').style.display = 'none';
       })
