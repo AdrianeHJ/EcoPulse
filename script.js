@@ -36,14 +36,8 @@ function carregarJSON() {
 
         document.getElementById('tituloAvaliacao').innerText = dados.tituloAvaliacao;
         document.getElementById('avaliacao1').innerText = dados.avaliacao1;
-        //document.getElementById('estrelasAvaliacao1').innerText = dados.estrelasAvaliacao1;
-        //document.getElementById('usuarioAvaliacao1').innerText = dados.usuarioAvaliacao1;
         document.getElementById('avaliacao2').innerText = dados.avaliacao2;
-        //document.getElementById('estrelasAvaliacao2').innerText = dados.estrelasAvaliacao2;
-        //document.getElementById('usuarioAvaliacao2').innerText = dados.usuarioAvaliacao2;
         document.getElementById('avaliacao3').innerText = dados.avaliacao3;
-        //document.getElementById('estrelasAvaliacao3').innerText = dados.estrelasAvaliacao3;
-        //document.getElementById('usuarioAvaliacao3').innerText = dados.usuarioAvaliacao3;
 
         document.getElementById('tituloPlanos').innerText = dados.tituloPlanos;
         document.getElementById('plano1').innerText = dados.plano1;
@@ -84,6 +78,9 @@ function carregarJSON() {
         document.getElementById('textoPergunta2').innerText = dados.textoPergunta2;
         document.getElementById('topicoPerguntas3').innerText = dados.topicoPerguntas3;
         document.getElementById('textoPergunta3').innerText = dados.textoPergunta3;
+
+        document.getElementById('nomeCompleto').innerText = dados.nomeCompleto;
+        document.getElementById('localizacaoJSON').innerText = dados.localizacaoJSON;
   
         document.getElementById('botaoCarregar').style.display = 'none';
       })

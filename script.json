@@ -23,17 +23,13 @@
     "topico4": "4. Compartilhe sua jornada.",
     "textoTopico4": "Compartilhamento fácil para as redes sociais, com badges, metas e desafios entre amigos.",
 
-    "tituloAvaliacao": "O que os usuários estão dizendo",
-    "avaliacao1": "“Nunca imaginei que fosse tão fácil fazer diferença. Só conectei meus apps e pronto: já estou ajudando a reflorestar a Amazônia!”",
-    "estrelasAvaliacao1": "⭐⭐⭐⭐⭐",
-    "usuarioAvaliacao1": "Camila F., SP",
-    "avaliacao2": "“Transformei meu impacto em pontos, ganhei desconto no cinema e ainda ajudei uma ONG local. Isso sim é o futuro!”",
-    "estrelasAvaliacao2": "⭐⭐⭐⭐⭐",
-    "usuarioAvaliacao2": "Rodrigo M., RE",
-    "avaliacao3": "“Adoro ver meu progresso semanal e competir com meus amigos. É tipo um jogo… só que salvando o planeta!”",
-    "estrelasAvaliacao3": "⭐⭐⭐⭐",
-    "usuarioAvaliacao3": "Lívia T., BH",
-
+    "tituloAvaliacao": "O que os usuários estão dizendo ",
+    "avaliacao1": "“Nunca imaginei que fosse tão fácil fazer diferença. Só conectei meus apps e pronto: já estou ajudando a reflorestar a Amazônia!” - Camila F., SP",
+    "avaliacao2": "“Transformei meu impacto em pontos, ganhei desconto no cinema e ainda ajudei uma ONG local. Isso sim é o futuro!” - Rodrigo M., RE",
+    "avaliacao3": "“Adoro ver meu progresso semanal e competir com meus amigos. É tipo um jogo… só que salvando o planeta!” - Lívia T., BH",
+    "avaliacao4": "“O EcoPulse me fez repensar minhas escolhas diárias. Agora, cada refeição e trajeto contam para um mundo melhor.” - João P., RJ",
+    "avaliacao5": "“Amei a ideia de compensar minhas emissões com plantio de árvores. É simples, rápido e faz toda a diferença!” - Ana S., PR",
+    
     "tituloPlanos": "Planos para todos os perfis",
     "plano1": "Plano Raiz - Gratuito",
     "itensPlano1": [
@@ -61,6 +57,26 @@
         "1 sessão de mentoria ambiental por mês."
     ],
     "textoPlano3": "Para quem quer liderar a mudança",
+    "plano4": "Plano EcoLíder - R$ 99/mês",
+    "itensPlano4": [
+        "Tudo dos planos anteriores;",
+        "Consultoria personalizada de sustentabilidade;",
+        "Acesso a eventos exclusivos e webinars;",
+        "Relatórios detalhados de impacto trimestral;",
+        "Badge exclusivo “Agente Verde Líder”;",
+        "1 sessão de coaching ambiental por mês."
+    ],
+    "textoPlano4": "Para quem quer ser um verdadeiro líder ambiental",  
+    "plano5": "Plano EcoEmpresas - R$ 299/mês",
+    "itensPlano5": [
+        "Tudo dos planos anteriores;",
+        "Dashboard corporativo de impacto;",
+        "Relatórios personalizados para empresas;",
+        "Consultoria de sustentabilidade empresarial;",
+        "Badge exclusivo “Agente Verde Corporativo”;",
+        "Acesso a eventos corporativos e networking."
+    ],
+    "textoPlano5": "Para empresas que querem fazer a diferença",
 
     "tituloPerguntas": "Perguntas Frequentes (FAQ)",
     "topicoPerguntas1": "Como o EcoPulse calcula meu impacto?",
@@ -68,5 +84,22 @@
     "topicoPerguntas2": "Preciso pagar para usar?",
     "textoPergunta2": "Não! Temos um plano gratuito com recursos essenciais. Planos pagos oferecem mais comodidades e impacto ampliado.",
     "topicoPerguntas3": "Minhas ações realmente fazem a diferença?",
-    "textoPergunta3": "Sim! Todas as compensações e ações são auditadas e ligadas a projetos reais, com impacto rastreável e transparente."
+    "textoPergunta3": "Sim! Todas as compensações e ações são auditadas e ligadas a projetos reais, com impacto rastreável e transparente.",
+    "topicoPerguntas4": "Como posso cancelar minha assinatura?",
+    "textoPergunta4": "Você pode cancelar a qualquer momento diretamente pelo app ou site. Não há taxas escondidas.",
+    "topicoPerguntas5": "O EcoPulse é seguro?",
+    "textoPergunta5": "Sim! Utilizamos criptografia de ponta a ponta e seguimos as melhores práticas de segurança de dados. Sua privacidade é nossa prioridade.",
+    "topicoPergunta6": "Posso usar o EcoPulse fora do Brasil?",
+    "textoPergunta6": "Sim! O EcoPulse está disponível para usuários em todo o mundo, com suporte a múltiplas línguas e moedas. Acompanhe seu impacto globalmente.",
+    "topicoPergunta7": "Como posso entrar em contato com o suporte?",
+    "textoPergunta7": "Nosso suporte está disponível 24/7 via chat no app, e-mail ou redes sociais. Estamos aqui para ajudar você a fazer a diferença.",
+    "topicoPergunta8": "O EcoPulse oferece suporte a empresas?",
+    "textoPergunta8": "Sim! Temos planos corporativos com dashboards personalizados, consultoria de sustentabilidade e relatórios de impacto. Entre em contato para mais informações.",
+    "topicoPergunta9": "Como posso me tornar um parceiro do EcoPulse?",
+    "textoPergunta9": "Se você é uma empresa ou organização interessada em se tornar parceira do EcoPulse, entre em contato conosco pelo e-mail",
+    "topicoPergunta10": "Como posso acompanhar meu progresso?",
+    "textoPergunta10": "Você pode acompanhar seu progresso diretamente no app, onde verá seu EcoScore, ações realizadas e impacto gerado em tempo real. Relatórios semanais e mensais também estão disponíveis.",
+
+    "nomeCompleto": "Nome Completo da aluna: Adriane Helfstein de Jesus",
+    "localizacaoJSON": "O JSON será carregado a partir do arquivo script.json, via fetch API"
 }

@@ -72,15 +72,8 @@ body.ativarEstilos .comentarios, .precos {
     margin-top: 40px;
 }
 
-body.ativarEstilos #estrelasAvaliacao1, #estrelasAvaliacao2, #estrelasAvaliacao3, 
-#usuarioAvaliacao1, #usuarioAvaliacao2, #usuarioAvaliacao3{
-    background: #ddd;
-    margin: 5px auto;
-    border-radius: 8px;
-    padding: 0px 20px;
-}
-
-body.ativarEstilos #avaliacao1, #avaliacao2, #avaliacao3 {
+body.ativarEstilos #avaliacao1, body.ativarEstilos #avaliacao2, 
+body.ativarEstilos #avaliacao3 {
     border: 1px solid #000;
     padding: 20px;
     width: 200px;
